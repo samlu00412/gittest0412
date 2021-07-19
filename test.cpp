@@ -39,6 +39,7 @@ int main() {
 	for (int i=0;i<726;i++)
 		newreg<<reg[i]<<endl;//ÂÐ»\ÂÂµù¥Uªí
 
+	system("pause");
 	newreg.close(); //Ãö³¬·sµù¥U¬ö¿ýÀÉ®×¬y
     return 0;
 }
