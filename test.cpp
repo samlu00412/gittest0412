@@ -11,7 +11,7 @@ int main() {
 		cout<<"檔案開啟失敗"<<endl;
 
     for (int i=0;i<726;i++)
-    	list>>reg[i];//讀取註冊表 
+    	list>>reg[i];//讀取註冊表
 
     list.close();//關閉註冊紀錄檔案流
 
