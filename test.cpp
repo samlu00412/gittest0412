@@ -8,7 +8,7 @@ int main() {
     ifstream list;
     list.open("register.txt",ios::in);
     if (!list.is_open())
-		cout<<"檔案開啟失敗"<<endl;
+    	cout<<"檔案開啟失敗"<<endl;
 
     for (int i=0;i<726;i++)
     	list>>reg[i];//讀取註冊表
